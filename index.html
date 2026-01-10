@@ -58,25 +58,6 @@
       margin: 1.5rem 0;
       border-radius: 0 8px 8px 0;
     }
-    .reproductores {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-    }
-    .gato-card {
-      text-align: center;
-      max-width: 280px;
-      background: white;
-      padding: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
-    .gato-card img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-bottom: 0.8rem;
-    }
     .whatsapp-btn {
       display: inline-block;
       background: #25D366;
@@ -102,9 +83,6 @@
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
-      }
-      .reproductores {
-        gap: 1rem;
       }
     }
   </style>
@@ -133,22 +111,14 @@
       </div>
     </section>
 
-    <!-- 🔸 SECCIÓN DE FOTOS – MODIFICA LOS ENLACES CUANDO TENGAS TUS FOTOS -->
+    <!-- 🔸 SECCIÓN DE FOTO – YA ESTÁ CONFIGURADA CON TU ARCHIVO -->
     <section>
       <h2>Nuestros Reproductores</h2>
-      <div class="reproductores">
-        <div class="gato-card">
-          <img src="https://placehold.co/300x300/e0d9c9/5d4037?text=Hembra+1" alt="Hembra Bengal 1">
-          <p><strong>Hembra 1</strong></p>
-        </div>
-        <div class="gato-card">
-          <img src="https://placehold.co/300x300/e0d9c9/5d4037?text=Hembra+2" alt="Hembra Bengal 2">
-          <p><strong>Hembra 2</strong></p>
-        </div>
-        <div class="gato-card">
-          <img src="https://placehold.co/300x300/e0d9c9/5d4037?text=Macho" alt="Macho Bengal">
-          <p><strong>Macho</strong></p>
-        </div>
+      <div style="text-align: center; padding: 1rem;">
+        <img src="gatos-bengal.jpg" 
+             alt="Nuestros Gatos Bengal Reproductores" 
+             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <p style="margin-top: 1rem; font-weight: bold; color: #5d4037;">Luna, Zara y Tiger — Nuestros reproductores</p>
       </div>
     </section>
 
