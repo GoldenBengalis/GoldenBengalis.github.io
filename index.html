@@ -20,7 +20,14 @@
       background: linear-gradient(to right, #5d4037, #8d6e63);
       color: white;
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 1rem 1rem 2rem;
+    }
+    header img {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
     }
     header h1 {
       font-size: 2.5rem;
@@ -59,7 +66,7 @@
     .highlight {
       background-color: #fff8e1;
       padding: 1.2rem;
-      border-left: 4px solid #ffc107;
+      border-left:  #ffc107;
       margin: 1.5rem 0;
       border-radius: 0 8px 8px 0;
     }
@@ -97,20 +104,12 @@
       margin: 1rem 0;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    video {
-      display: block;
-      margin: 0 auto;
-      max-width: 600px;
-      width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
     @media (max-width: 600px) {
       header h1 {
         font-size: 2rem;
       }
-      video {
-        max-width: 100%;
+      header img {
+        max-height: 200px;
       }
     }
   </style>
@@ -118,6 +117,10 @@
 <body>
 
   <header>
+    <!-- ✅ FOTO PRINCIPAL: Bengali-Shadow.jpg -->
+    <img src="Bengali-Shadow.jpg" 
+         alt="Gato Bengalí Shadow – Criador responsable" 
+max-width: 100%; max-height: 300px; border-radius: 8px; margin-bottom: 1rem; box-shadow: 0 6px 16px rgba(0,0,0,0.2);">
     <h1>🐾 Gatos Bengalí con Pedigrí</h1>
     <p>Criador responsable – Próxima camada disponible para reserva</p>
   </header>
@@ -136,57 +139,23 @@
           Nuestros ejemplares provienen de líneas selectas reconocidas, garantizando 
           patrones de rosetas definidos, excelente temperamento y salud óptima.
         </p>
-        <p style="text-align: center; font-style: italic; margin-top: 1rem;">
+        <p style="text-align: center; font-style: italic; margin-top: 1;">
           📍 Criadero ubicado en Pontevedra, Galicia (España)
         </p>
       </div>
     </section>
 
-    <!-- 🔸 FOTO DE LOS REPRODUCTORES -->
-    <section>
-      <h2>Nuestros Reproductores</h2>
-      <div style="text-align: center; padding: 1rem;">
-        <img src="gatos-bengal.jpg" 
-             alt="Nuestros Gatos Bengalíes Reproductores" 
-             style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-        <p style="margin-top: 1rem; font-weight: bold; color: #5d4037;">Sasha, Shadow y Nala — Nuestros reproductores</p>
-      </div>
-    </section>
-
-    <!-- 🔸 VIDEOS DE CADA GATO -->
-    <section>
-      <h2>Conócelos en Acción</h2>
-      <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1.5rem;">
-        <div>
-          <h3>Sasha</h3>
-          <video controls>
-            <source src="Sasha.mp4" type="video/mp4">
-            Tu navegador no soporta videos.
-          </video>
-        </div>
-        <div>
-          <h3>Shadow</h3>
-          <video controls>
-            <source src="Shadow.mp4" type="video/mp4">
-            Tu navegador no soporta videos.
-          </video>
-        </div>
-        <div>
-          <h3>Nala</h3>
-          <video controls>
-            <source src="Nala.mp4" type="video/mp4">
-            Tu navegador no soporta videos.
-          </video>
-        </div>
-      </div>
-    </section>
-
-    <!-- 🔸 PRÓXIMA CAMADA – ACTUALIZADA -->
+    <!-- 🔸 PRÓXIMA CAMADA – CON BOTÓN DE WHATSAPP -->
     <section>
       <h2>Próxima Camada – ¡Ya en camino!</h2>
       <div class="info-text" style="text-align: center;">
         <p><strong>Colores esperados:</strong> Brown Rosetted, Snow Seal Lynx</p>
         <p><strong>Reservas abiertas:</strong> Sí (máximo 3 reservas por camada)</p>
+        <a href="https://wa.me/34611187954?text=Hola%2C%20quisiera%20reservar%20un%20gatito%20Bengal%C3%AD%20y%20solicitar%20cita%20para%20verlo." 
+           target="_blank"
+           class="whatsapp-btn">
+          📲 Pedir cita o reservar por WhatsApp
+        </a>
       </div>
     </section>
 
@@ -201,7 +170,7 @@
           Los Bengalí spotted tienen rosetas repartidas sobre el manto. Estas rosetas deberán estar bien contorneadas para darle mayor contraste al manto. Dichas rosetas pueden estar completamente cerradas o abiertas. El interior de roseta deberá ser de otro tono, para darle así mayor contraste.
         </p>
         <p>
-          El bengal Spotted se puede presentar en colores como Snow (Lynx, Mink y Sepia), Charcoal, Silver, Melanístico, Blue, etc., variando en tonalidades dependiendo del tipo.
+          El bengal Spotted se puede presentar en colores como Snow (Lynx, Mink y Sepia), Charcoal, Silver, Melanístico, Blue, etc., variando en tonalidades dependiendo del.
         </p>
 
         <h3>El Marbled</h3>
@@ -214,7 +183,7 @@
 
         <h3>Bengal Snow</h3>
         <p>
-          Dentro de los Bengalí Snow, hay 3 tipos diferentes: Snow Lynx, Snow Mink y Snow Sepia. Estos se distinguen por el color de ojos principalmente, y por el color de roseta y contraste.
+          Dent Bengalí Snow, hay 3 tipos diferentes: Snow Lynx, Snow Mink y Snow Sepia. Estos se distinguen por el color de ojos principalmente, y por el color de roseta y contraste.
         </p>
 
         <h4>Snow Lynx</h4>
@@ -249,7 +218,7 @@
       </div>
     </section>
 
-    <!-- 🔸 LO QUE ENTREGAMOS – ACTUALIZADO -->
+    <!-- 🔸 LO QUE ENTREGAMOS -->
     <div class="highlight" style="text-align: center;">
       <strong>Al reservar, recibes:</strong><br>
       📄 Pedigrí oficial<br>
@@ -258,19 +227,6 @@
       ✂️ Castración incluida<br>
       🧸
     </div>
-
-    <!-- 🔸 CONTACTO -->
-    <section>
-      <h2>¿Interesado?</h2>
-      <div class="info-text" style="text-align: center; padding: 2rem;">
-        <p>Abre una conversación directa para consultar disponibilidad, pedir fotos o reservar tu gatito.</p>
-        <a href="https://wa.me/34611187954?text=Hola%2C%20estoy%20interesado%20en%20reservar%20un%20gatito%20bengal%C3%AD%20con%20pedigr%C3%AD." 
-           target="_blank"
-           class="whatsapp-btn">
-          📲 Chatear por WhatsApp
-        </a>
-      </div>
-    </section>
 
   </div>
 
